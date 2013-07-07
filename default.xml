@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/jellybean"
+           remote="github"
+           sync-c="true"
+           sync-j="16" />
+
+  <project path="build" name="MiCode/patchrom_build" />
+  <project path="android" name="MiCode/patchrom_android" />
+  <project path="miui" name="MiCode/patchrom_miui" />
+  <project path="tools" name="MiCode/patchrom_tools" />
+  <project path="nypon" name="XperiaMIUI/patchrom_nypon" />
+
+</manifest>
