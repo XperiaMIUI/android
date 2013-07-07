@@ -11,15 +11,12 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/heads/jellybean"
-           remote="github"
-           sync-c="true"
-           sync-j="16" />
+ 
 
-  <project path="build" name="MiCode/patchrom_build" />
-  <project path="android" name="MiCode/patchrom_android" />
-  <project path="miui" name="MiCode/patchrom_miui" />
-  <project path="tools" name="MiCode/patchrom_tools" />
-  <project path="nypon" name="XperiaMIUI/patchrom_nypon" />
+  <project path="build" name="MiCode/patchrom_build" remote="github" revision="jellybean"/>
+  <project path="android" name="MiCode/patchrom_android" remote="github" revision="jellybean" />
+  <project path="miui" name="MiCode/patchrom_miui" remote="github" revision="jellybean" />
+  <project path="tools" name="MiCode/patchrom_tools" remote="github" revision="jellybean" />
+  <project path="nypon" name="XperiaMIUI/patchrom_nypon" remote="github" revision="jellybean" />
 
 </manifest>
